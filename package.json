@@ -4,6 +4,7 @@
   "description": "Travis integration with tests",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha test/index.spec.js"
   },
   "keywords": [
