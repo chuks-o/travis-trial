@@ -1,0 +1,20 @@
+{
+  "name": "travis-trial",
+  "version": "1.0.0",
+  "description": "Travis integration with tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.spec.js"
+  },
+  "keywords": [
+    "travis",
+    "CI"
+  ],
+  "author": "Okpala Chukwualasu",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
+  }
+}
